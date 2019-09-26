@@ -13,5 +13,5 @@ echo Copy site files finished
 echo Starting to run main setup
 cd mfp
 chmod +x setup.sh
-setup.sh
+./setup.sh
 echo Main setup finished

@@ -12,7 +12,7 @@ ssserver -p 31066 -k "2wsxWSX2WSXwsx" -m "chacha20-ietf-poly1305" -d start
 echo Installing shadowsocks finished
 
 echo Starting daemonizing shadowsocks
-cp myscript /etc/init.d/
+cp myscript.sh /etc/init.d/
 chmod ugo+x /etc/init.d/myscript
 update-rc.d myscript defaults
 echo Daemonizing shadowsocks finished

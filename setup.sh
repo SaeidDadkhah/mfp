@@ -25,6 +25,6 @@ echo Copy site files finished
 
 echo Starting configuring nginx
 rm /etc/nginx/sites-available/default
-mv nginx.conf /etc/nginx/nginx.conf
+cp nginx.conf /etc/nginx/nginx.conf
 service nginx restart
 echo Configuring nginx finished

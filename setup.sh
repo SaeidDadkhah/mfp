@@ -13,8 +13,8 @@ echo Installing shadowsocks finished
 
 echo Starting daemonizing shadowsocks
 cp myscript.sh /etc/init.d/
-chmod ugo+x /etc/init.d/myscript
-update-rc.d myscript defaults
+chmod ugo+x /etc/init.d/myscript.sh
+update-rc.d myscript.sh defaults
 echo Daemonizing shadowsocks finished
 
 echo Starting copy site files

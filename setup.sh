@@ -2,7 +2,7 @@
 
 echo Starting installing packages
 export LC_ALL=C
-apt-get install -y nginx python python-pip libsodium-dev htop
+apt-get install -y nginx python3 python3-pip libsodium-dev htop
 echo Installing packages finished
 
 echo Starting installing shadowsocks
